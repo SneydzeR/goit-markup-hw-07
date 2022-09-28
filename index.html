@@ -10,27 +10,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"> 
     <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 <body>
     <header class="page-header">
-        <div class="container">
-        <nav class="main-nav">
-            <a class="logo-link" href="./index.html" lang="en">Web<span class="logo-header">Studio</span></a>
-            <ul class="site-nav list">
-                <li class="item"><a href="./index.html" class="link current">Студія</a></li>
-                <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
-                <li class="item"><a href="#" class="link">Контакти</a></li>
+        <div class="page-header__box container">
+        <nav class="page-header__nav">
+            <a class="logo logo__page-header" href="./index.html" lang="en">Web<span class="logo__page-header_logos">Studio</span></a>
+            <ul class="page-header__site-nav">
+                <li class="site-nav__item"><a href="./index.html" class="site-nav__link current">Студія</a></li>
+                <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link">Портфоліо</a></li>
+                <li class="site-nav__item"><a href="#" class="site-nav__link">Контакти</a></li>
             </ul>
         </nav>      
             <ul class="contact-nav list">
-                <li class="item">
-                <a class="contacts-page link" href="mailto:info@devstudio.com" class="link">
-                    <svg aria-label="конверт" class="button-icon" width="16" height="12">
+                <li class="contact-nav__item">
+                <a class="contact-nav__contacts-page link" href="mailto:info@devstudio.com" class="link">
+                    <svg aria-label="конверт" class="contact-nav__button-icon" width="16" height="12">
                     <use href="./images/icons.svg#icon-envelope"></use>  
                 </svg>info@devstudio.com</a></li>
-                <li class="item">
-                <a class="contacts-page link" href="tel:+380961111111" class="link">
-                    <svg aria-label="телефон" class="smartphone" width="10" height="16"> 
+                <li class="contact-nav__item">
+                <a class="contact-nav__contacts-page link" href="tel:+380961111111" class="link">
+                    <svg aria-label="телефон" class="contact-nav__smartphone" width="10" height="16"> 
                     <use href="./images/icons.svg#icon-phone"></use> 
                 </svg>+380961111111</a></li>
             </ul>
@@ -39,59 +40,59 @@
     <main>
         <section class="hero">
             <div class="container">
-             <h1 class="hero-title">Ефективні рішення для <br> вашого бізнесу</h1>
-             <button data-modal-open type="button" class="button-primary" >Замовити послугу</button>
+             <h1 class="hero__title">Ефективні рішення для <br> вашого бізнесу</h1>
+             <button data-modal-open type="button" class="hero__button-primary" >Замовити послугу</button>
             </div>
         </section>
         <section class="special">
             <div class="container">
             <h2 class="visually-hidden">Наші особливості</h2>
-            <ul class="features-list list">
-              <li class="item icon-deliver">
-                <div class="superio">
+            <ul class="special__features-list list">
+              <li class="special__item">
+                <div class="special__superio">
                     <svg aria-label="антена" class="icon" width = "70" height = "70">
                 <use href="./images/icons.svg#icon-antenna"></use>
                     </svg>
                 </div>
-                <div class="mario">
-                    <h3 class="title">Увага до деталей</h3>
-                    <p class="text">Ідейні міркування, i навіть початок повсякденної роботи з формування позиції.
+                <div class="special__mario">
+                    <h3 class="special__title">Увага до деталей</h3>
+                    <p class="special__text">Ідейні міркування, i навіть початок повсякденної роботи з формування позиції.
                     </p>
                 </div>
               </li>
-              <li class="item icon-top">
-                <div class="superio">
+              <li class="special__item">
+                <div class="special__superio">
                     <svg aria-label="годинник" class="icon" width = "70" height = "70">
                 <use href="./images/icons.svg#icon-clock"></use>
                     </svg>
                 </div>
-                <div class="mario">
-                <h3 class="title">Пунктуальність</h3>
-                <p class="text">Завдання організації, особливо рамки i місце навчання кадрів тягне у себе.
+                <div class="special__mario">
+                <h3 class="special__title">Пунктуальність</h3>
+                <p class="special__text">Завдання організації, особливо рамки i місце навчання кадрів тягне у себе.
                 </p>
                 </div>
               </li>
-              <li class="item icon-sop">
-                <div class="superio">
+              <li class="special__item">
+                <div class="special__superio">
                     <svg aria-label="діаграма" class="icon" width = "70" height = "70">
                 <use href="./images/icons.svg#icon-diagram"></use>
                     </svg>
                 </div>
-                <div class="mario">
-                <h3 class="title">Планування</h3>
-                <p class="text">Так само консультація з широким активом значною мірою зумовлює.
+                <div class="special__mario">
+                <h3 class="special__title">Планування</h3>
+                <p class="special__text">Так само консультація з широким активом значною мірою зумовлює.
                 </p>
                 </div>
               </li>
-              <li class="item icon-pop">
-                <div class="superio">
+              <li class="special__item">
+                <div class="special__superio">
                     <svg aria-label="астронавт" class="icon" width = "70" height = "70">
                 <use href="./images/icons.svg#icon-astronaut"></use>
                     </svg>
                 </div>
-                <div class="mario">
-                <h3 class="title">Сучасні технології</h3>
-                <p class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+                <div class="special__mario">
+                <h3 class="special__title">Сучасні технології</h3>
+                <p class="special__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.
                 </p>
                 </div>
               </li>

@@ -10,27 +10,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 <body>
     <header class="page-header">
-        <div class="container">
-            <nav class="main-nav">
-                <a class="logo-link" href="./index.html" lang="en">Web<span class="logo-header">Studio</span></a>
-                <ul class="site-nav list">
-                    <li class="item"><a href="./index.html" class="link">Студія</a></li>
-                    <li class="item"><a href="./portfolio.html" class="link current">Портфоліо</a></li>
-                    <li class="item"><a href="#" class="link">Контакти</a></li>
+        <div class="page-header__box container">
+            <nav class="page-header__nav">
+                <a class="logo logo__page-header" href="./index.html" lang="en">Web<span class="logo__page-header_logos">Studio</span></a>
+                <ul class="page-header__site-nav">
+                    <li class="site-nav__item"><a href="./index.html" class="site-nav__link">Студія</a></li>
+                    <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link current">Портфоліо</a></li>
+                    <li class="site-nav__item"><a href="#" class="site-nav__link">Контакти</a></li>
                 </ul>
             </nav>      
             <ul class="contact-nav list">
-                <li class="item">
-                <a class="contacts-page link" href="mailto:info@devstudio.com" class="link">
-                    <svg aria-label="конверт" class="button-icon" width="16" height="12">
+                <li class="contact-nav__item">
+                <a class="contact-nav__contacts-page link" href="mailto:info@devstudio.com" class="link">
+                    <svg aria-label="конверт" class="contact-nav__button-icon" width="16" height="12">
                     <use href="./images/icons.svg#icon-envelope"></use>  
                 </svg>info@devstudio.com</a></li>
-                <li class="item">
-                <a class="contacts-page link" href="tel:+380961111111" class="link">
-                    <svg aria-label="телефон" class="smartphone" width="10" height="16"> 
+                <li class="contact-nav__item">
+                <a class="contact-nav__contacts-page link" href="tel:+380961111111" class="link">
+                    <svg aria-label="телефон" class="contact-nav__smartphone" width="10" height="16"> 
                     <use href="./images/icons.svg#icon-phone"></use> 
                 </svg>+380961111111</a></li>
             </ul>
