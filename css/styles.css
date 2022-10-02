@@ -26,9 +26,6 @@
     --secondary-font : 'Raleway',sans-serif;
 }
 
-/*General*/
-
-
 /*body*/
 
 body {
@@ -74,26 +71,22 @@ img {
   }
 
 .link,
-.site-nav__item,
-.site-nav__link,
 .contact,
 .contact,
 .site-nav,
-.link.current {
+.site-nav__link,
+.link .current {
   transition: color var(--transition);
 }
 
-.site-nav__link:hover,
-.site-nav__link:focus,
-.site-nav__item:hover,
-.site-nav__item:focus,
+
 .link:hover,
 .link:focus,
 .contact:hover,
 .contact:focus,
 .contact-footer:hover,
 .contact-footer:focus,
-.site-nav .link.current {
+.site-nav__link .current {
   color: var(--accent-color);
 }
 
@@ -168,7 +161,7 @@ img {
     margin-left: 93px;
 }
 
-.site-nav__link_current::after {
+.link.site-nav__link .current::after {
     position: absolute;
     content:"";
     left: 0;
@@ -205,7 +198,7 @@ img {
     color:var(--accent-color);
 }
 
-.site-nav__link.current {
+.site-nav__link .current {
     color: var(--accent-color);
 }
 
@@ -1295,8 +1288,6 @@ h1,h2,h3 { margin: 0px;
     text-align: left;
     margin: 0px;
 }
-
-
 
 
 
