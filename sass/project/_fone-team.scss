@@ -96,13 +96,15 @@
     height: 44px;
     fill: var(--icon-fons-color);
     transition: background-color var(--transition), fill var(--transition);
+
+    &:hover, 
+    &:focus{
+        background-color: var(--accent-color);
+        fill: var(--primary-white-color);
+    }
   }
 
-  .fone__sociamod-links:hover, 
-  .fone__sociamod-links:focus{
-      background-color: var(--accent-color);
-      fill: var(--primary-white-color);
-  }
+
 
   .fone__social-icon {
     width: 20px;

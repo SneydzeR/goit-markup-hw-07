@@ -43,11 +43,13 @@ h1,h2,h3 { margin: 0px;
     line-height: 1.88;
     text-align: center;
     transition: background-color var(--transition), color var(--transition) ;
-}
-.hero__button-primary:hover, 
-.hero__button-primary:focus {
+
+    &:hover, 
+    &:focus {
     background-color : var(--super-blue-color);
     color: var(--primary-white-color);
     cursor:pointer;
 }
+}
+
 

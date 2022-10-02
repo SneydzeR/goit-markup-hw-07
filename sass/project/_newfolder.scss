@@ -51,6 +51,12 @@
 
 .newfolder__omga{
     fill: var(--icon-fons-color);
+
+    &:hover,
+    &:focus {
+    border: 1px solid var(--accent-color);
+    fill: var(--accent-color);
+}
 }
 
 .newfolder__omga:hover,
@@ -70,9 +76,11 @@
     border: 1px solid var(--icon-fons-color);
     border-radius: 4px;
     transition: fill var(--transition);
-}
 
-.newfolder__omga:hover, 
-.newfolder__omga:focus{
+    &:hover, 
+    &:focus{
     fill: var(--accent-color);
 }
+}
+
+

@@ -33,9 +33,11 @@
     background-color: var(--link-icon-color);
     border-radius: 50%;
     transition: background-color var(--transition), fill var(--transition);
-}
-.contact-list__sociamod-link:hover, 
-.contact-list__sociamod-link:focus{
-    background-color: var(--accent-color);
-    fill: var(--primary-white-color);
+  
+    &:hover, 
+      &:focus {   
+        background-color: var(--accent-color);
+        fill: var(--primary-white-color);
+      }
+
 }

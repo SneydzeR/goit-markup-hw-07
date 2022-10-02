@@ -46,10 +46,7 @@
     margin-top: 20px;
   }
 
-.contact-list__contact-foot .link:hover, 
-.contact-list__contact-foot .link:focus {
-      color: var(--accent-color);
-  }
+
 .contact-list__contact-foot .link {
       color: var(--primary-text-color);
   
@@ -58,6 +55,12 @@
       line-height: 1.14;
       letter-spacing: 0.02em;
       text-decoration: none;
+  
+  &:hover, 
+  &:focus {
+      color: var(--accent-color);
+  }
+  
   }
 
 .contact-list__item {
@@ -124,12 +127,14 @@
     background-color: var(--link-icon-color);
     border-radius: 50%;
     transition: background-color var(--transition), fill var(--transition);
-}
-.contact-list__sociamod-link:hover, 
-.contact-list__sociamod-link:focus{
+
+  &:hover, 
+  &:focus{
     background-color: var(--accent-color);
     fill: var(--primary-white-color);
 }
+}
+
 
 .contact-list__footer-form {
     margin-left: auto;
@@ -201,11 +206,13 @@
   cursor: pointer;
   margin: 0px;
   transition: background-color var(--transition);
-}
-.contact-list__footbtn:hover,
-.contact-list__footbtn:focus {
+
+&:hover,
+&:focus {
   background-color: var(--super-blue-color);
 }
+}
+
 .contact-list__footbtn-image {
   width: 24px;
   height: 24px;
